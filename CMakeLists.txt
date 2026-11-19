@@ -26,6 +26,8 @@ juce_add_plugin(KeyofPeaceVocalStudioGlue
     PRODUCT_NAME "KeyofPeace Vocal & Studio Glue"
 )
 
+juce_generate_juce_header(KeyofPeaceVocalStudioGlue)
+
 target_sources(KeyofPeaceVocalStudioGlue
     PRIVATE
         Source/PluginProcessor.cpp
